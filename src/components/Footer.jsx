@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faTwitter, faYoutube, faInstagram, faTumblr, faSpotify } from "@fortawesome/free-brands-svg-icons";
-
+import image1 from '../assets/image1.png'
+import image2 from '../assets/image2.png'
 
 function Footer() {
   return (
@@ -78,8 +79,8 @@ function Footer() {
   {/* Images on the Right */}
   <Col md={6} className="text-end">
     <div className="d-flex justify-content-end">
-      <img src="./src/assets/image1.png" alt="Image 1" className="img-fluid mx-2" style={{ width: "120px" }} />
-      <img src="./src/assets/image2.png" alt="Image 2" className="img-fluid mx-2" style={{ width: "120px" }} />
+      <img src={image1} alt="Image 1" className="img-fluid mx-2" style={{ width: "120px" }} />
+      <img src={image2} alt="Image 2" className="img-fluid mx-2" style={{ width: "120px" }} />
     </div>
   </Col>
 </Row>

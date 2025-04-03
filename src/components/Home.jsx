@@ -1,5 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import mc2  from '../assets/mc2.jpg'
+import mc1 from '../assets/mc1.jpg'
+import mc3 from '../assets/mc3.jpg'
+import mc4 from '../assets/mc4.jpg'
+import mc5 from '../assets/mc5.jpg'
 
 function Home() {
   return (
@@ -7,7 +12,7 @@ function Home() {
       <Row className="align-items-center">
       <Col md={6}>
           <img
-            src="./src/assets/mc2.jpg"
+            src={mc2}
             alt="McDonald's Burgers"
             className="img-fluid rounded"
           />
@@ -27,7 +32,7 @@ function Home() {
         </Col>
         <Col md={6}>
           <img
-            src="./src/assets/mc3.jpg"
+            src={mc3}
             alt="McDonald's Burgers"
             className="img-fluid rounded"
           />
@@ -47,7 +52,7 @@ function Home() {
 
         <Col md={6}>
           <img
-            src="./src/assets/mc1.jpg"
+            src={mc1}
             alt="McDonald's Burgers"
             className="img-fluid rounded"
           />
@@ -68,7 +73,7 @@ function Home() {
         </Col>
         <Col md={6}>
           <img
-            src="./src/assets/mc4.jpg"
+            src={mc4}
             alt="McDonald's Burgers"
             className="img-fluid rounded"
           />
@@ -87,7 +92,7 @@ function Home() {
         </Col>
         <Col md={6}>
           <img
-            src="./src/assets/mc5.jpg"
+            src={mc5}
             alt="McDonald's Burgers"
             className="img-fluid rounded"
           />
